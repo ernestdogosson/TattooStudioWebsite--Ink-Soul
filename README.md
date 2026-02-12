@@ -55,7 +55,11 @@ This project taught us how to think about business needs, not just technical imp
 ## Getting Started
 
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/ernest/tattoo-studio-website.git
+=======
+git clone https://github.com/ernestdogosson/tattoo-studio-website.git
+>>>>>>> 7bf5c98cf09d36df094458c133ca40125002c4e2
 cd tattoo-studio-website
 ```
 
