@@ -1,8 +1,7 @@
 .contact__container {
-	align-items: center;
 	color: #fff;
 	width: 100%;
-	height: calc(100vh - 200px);
+	min-height: calc(100vh - 200px);
 	display: flex;
 	align-items: center;
 }
@@ -58,7 +57,8 @@
 
 .form__input:focus,
 .form__textarea:focus {
-	outline: none;
+	outline: 2px solid #ffd93d;
+	outline-offset: 2px;
 	color: #0d1b2a;
 }
 
@@ -80,4 +80,16 @@
 
 .form__submit:hover {
 	transform: translateY(-2px);
+}
+
+.form__submit:focus-visible {
+	outline: 2px solid #ffd93d;
+	outline-offset: 4px;
+}
+
+@media (max-width: 480px) {
+	.contact {
+		padding: 20px;
+		margin: 2rem 1rem;
+	}
 }
